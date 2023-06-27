@@ -18,8 +18,8 @@ app.use((req, res, next) => {
   next()
 });
 
-mongoose.connect("mongodb+srv://skavvathas:01052001sk@cluster0.9dsorio.mongodb.net/twitterClone", { useNewUrlParser: true });
-//mongoose.connect("mongodb+srv://<username>:<password>@cluster0.9dsorio.mongodb.net/twitterClone", { useNewUrlParser: true });
+
+mongoose.connect("mongodb+srv://<username>:<password>@cluster0.9dsorio.mongodb.net/twitterClone", { useNewUrlParser: true });
 
 // routes
 
