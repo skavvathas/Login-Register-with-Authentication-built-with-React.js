@@ -1,0 +1,104 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,500&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css');
+
+body {
+    background: #92ecfe;  /* fallback for old browsers */   
+    padding: 0; /* Remove default padding */
+    height: 100vh; /* Set body height to 100% of viewport height */
+    margin: 0;
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+header {
+    color:#eefdf8;
+    border-bottom: thick double #040304;
+    width: 25%;
+    height: 100%;
+}
+
+.back{
+    background-color:  #92ecfe
+}
+
+header .button {
+    padding: 10px
+}
+
+header a {
+    color:#eefdf8;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+/* home */
+
+.titles{
+    font-size: x-large;
+}
+
+/* */
+.center {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.wrapper {
+    position: relative;
+}
+
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+    border-left: 5px solid rgb(242, 139, 253);
+}
+
+    /* The navigation menu links */
+
+    /* Style page content */
+.main {
+    margin-left: 30%; /* Same as the width of the sidebar */
+    margin-top: 10%;
+    width: 40%;
+    padding: 0px 10px;
+}
+
+.button-marg{
+    margin-top: 5%;
+}
+
+.text-centered{
+    text-align: center;
+}
+
+.twitter-button {
+    background-color: #131719;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 4px 7px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+
+.white-text {
+    color: #fff; /* sets font color to white */
+    font-size: 30px;
+}
+
+.white-text2 {
+    color: #fff; /* sets font color to white */
+    font-size: 15px;
+}
+
+
+
+
